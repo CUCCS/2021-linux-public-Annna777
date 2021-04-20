@@ -64,10 +64,11 @@ lvreduce -L size dir
 
 7. 如何通过systemd设置实现一个脚本在任何情况下被杀死之后会立即重新启动？实现杀不死？
 * 修改配置文件
-        ```
-        [Service]
-        Restart=always
-        ```
+
+    ```
+    [Service]
+    Restart=always
+    ```
 
 ## 实验问题
 
