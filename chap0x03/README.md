@@ -55,6 +55,7 @@ lvreduce -L size dir
 
 6. 如何通过systemd设置实现在网络连通时运行一个指定脚本，在网络断开时运行另一个脚本？
 * 修改`systemd-networkd.service`配置文件
+
     ```
     [Service]
     ExecStart=<path_service1> start
