@@ -54,7 +54,7 @@ lvreduce -L size dir
 ```
 
 6. 如何通过systemd设置实现在网络连通时运行一个指定脚本，在网络断开时运行另一个脚本？
-  * 修改`systemd-networkd.service`配置文件
+* 修改`systemd-networkd.service`配置文件
     ```
     [Service]
     ExecStart=<path_service1> start
@@ -63,7 +63,7 @@ lvreduce -L size dir
 
 
 7. 如何通过systemd设置实现一个脚本在任何情况下被杀死之后会立即重新启动？实现杀不死？
-    * 修改配置文件
+* 修改配置文件
         ```
         [Service]
         Restart=always
