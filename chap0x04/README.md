@@ -95,7 +95,7 @@ sudo apt-get install -y shellcheck imagemagick p7zip-full
 
 #### Travis
 
-- [Travis部署结果]()
+- [Travis部署结果](https://travis-ci.com/github/CUCCS/2021-linux-public-Annna777)
 
 ### 参考资料
 - [Linux 系统与网络管理(2021)视频](https://www.bilibili.com/video/BV1Hb4y1R7FE?p=79)
