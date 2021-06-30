@@ -61,7 +61,7 @@ function AddSuffix {
         type=${i##*.}
 	if [[ ${type} != "jpg" && ${type} != "png" && ${type} != "svg" && ${type} != "jpeg" && ${type} != "JPEG" ]]; then continue; fi;
         mv "${i}" "${i%.*}$1"."${type}"
-        echo " ${i} 已添加后缀 ${i%.*}$1"."${type}"
+        echo " ${i} 已添加后缀 ${i%.*}$1.${type}"
     done
 }
 

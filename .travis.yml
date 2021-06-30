@@ -30,7 +30,6 @@ script:
 - bash task2.sh -n
 - bash task2.sh -a
 - echo ":========================= 3 ===========================:"
-- 7z x web_log.tsv.7z
 - bash task3.sh -h
 - bash task3.sh -c
 - bash task3.sh -i
