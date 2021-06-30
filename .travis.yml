@@ -31,11 +31,11 @@ script:
 - bash task2.sh -a
 - echo ":========================= 3 ===========================:"
 - bash task3.sh -h
-- bash task3.sh -c
+- bash task3.sh -o
 - bash task3.sh -i
 - bash task3.sh -u
-- bash task3.sh -p
-- bash task3.sh -a
+- bash task3.sh -c
+- bash task3.sh -f
 - bash task3.sh -s /icons/blank.xbm
 - ls -l
 notifications:
