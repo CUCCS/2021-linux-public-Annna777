@@ -54,8 +54,14 @@ sudo apt-get install -y shellcheck imagemagick p7zip-full
    ![](img/上传图片.png)
 
 3. 编辑脚本
+
 4. 本地测试
+
 5. 编写`.travis.yml`文件后上传至GitHub测试
+
+##### 实验结果
+
+- [任务1实验结果](./任务1结果.md)
 
 #### 任务2.1
 
