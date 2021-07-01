@@ -28,10 +28,9 @@ function CompressionResolution {
     R=$1
     for i in *;do
         type=${i##*.}
-        if [[ ${type} == "jpg" || ${type} == "png" || ${type} != "svg" || ${type} == "jpeg" || ${type} == "JPEG" ]];then
+        if [[ ${type} != "jpg" && ${type} != "png" && ${type} != "svg" && ${type} != "jpeg" && ${type} != "JPEG" ]];then continue;fi;
             convert "${i}" -resize "${R}" "${i}"
             echo "${i} 分辨率压缩完成"
-        fi
     done
 }
 
